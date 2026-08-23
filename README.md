@@ -22,7 +22,7 @@ hello --shout Ada  # HELLO, ADA!
 | Flag | What it does |
 |---|---|
 | `--shout` | Prints the greeting in upper case |
-| `--version` | Prints the version number and exits |
+| `--version`, `-v` | Prints the version number and exits |
 
 ## Licence
 
