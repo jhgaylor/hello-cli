@@ -16,6 +16,7 @@ hello            # Hello, world!
 hello Ada        # Hello, Ada!
 hello --shout Ada  # HELLO, ADA!
 hello --version  # 0.1.0
+hello -v         # 0.1.0
 ```
 
 ## Options
@@ -23,7 +24,7 @@ hello --version  # 0.1.0
 | Flag | What it does |
 |---|---|
 | `--shout` | Prints the greeting in upper case |
-| `--version` | Prints the version and exits |
+| `--version`, `-v` | Prints the version and exits |
 
 ## Licence
 

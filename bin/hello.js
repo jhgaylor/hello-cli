@@ -6,7 +6,7 @@
 //   hello --shout Ada → HELLO, ADA!
 
 const args = process.argv.slice(2);
-if (args.includes("--version")) {
+if (args.includes("--version") || args.includes("-v")) {
   console.log("0.1.0");
   process.exit(0);
 }
