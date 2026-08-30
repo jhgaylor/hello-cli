@@ -6,6 +6,11 @@
 //   hello --shout Ada → HELLO, ADA!
 
 const args = process.argv.slice(2);
+if (args.includes("--version") || args.includes("-v")) {
+  console.log("0.1.0");
+  process.exit(0);
+}
+
 const shout = args.includes("--shout");
 const name = args.filter((a) => !a.startsWith("--"))[0] ?? "world";
 
