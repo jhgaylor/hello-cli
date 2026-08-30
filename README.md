@@ -15,6 +15,7 @@ npm install -g .
 hello            # Hello, world!
 hello Ada        # Hello, Ada!
 hello --shout Ada  # HELLO, ADA!
+hello --version  # 0.1.0
 ```
 
 ## Options
@@ -22,6 +23,7 @@ hello --shout Ada  # HELLO, ADA!
 | Flag | What it does |
 |---|---|
 | `--shout` | Prints the greeting in upper case |
+| `--version` | Prints the version and exits |
 
 ## Licence
 
